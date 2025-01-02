@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+body {
+    font-family: Montserrat, serif;
+    color: white;
+    background-color: black;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 4em;
+}
+
+
+
+#nav-link:hover {
+    color:maroon
+}
+
+header {
+    background-color: rgb(18, 0, 0);
+}
+
+.navbar {
+    height: 80px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+
+.collapse {
+    display: flex;
+    justify-content: end;
+}
+
+.nav-item {
+    font-size: 1.2em;
+    margin: 1.2em;
+}
+
+.nav-link {
+    color: #ff5733;
+}
+
+.exp-cont {
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.experience-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4em;
+}
+.experience h5 {
+    color: rgba(188, 184, 184, 0.75);
+}
+
+.exp-start h3{
+    color: maroon
+}
+
+.exp-end h3{
+    color:  maroon
+}
+
+.experience-content h6 {
+    font-size: 6em;
+    color: rgb(202, 37, 37)
+}
+
+.philosophy {
+    background-color: rgb(31, 0, 0);
+    display: flex;
+    align-items: center;
+}
+
+.philosophy-txt{
+    color: rgba(188, 184, 184, 0.75);
+}
+
+.skillset {
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    font-weight: bolder;
+    color: maroon;
+}
+
+.img-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-s h6 
+{
+    color: rgba(188, 184, 184, 0.75);
+}
+
+.card {
+    width: 550px;
+    background-color: rgb(40, 18, 18);
+    margin-bottom: 2em;
+}
+
+.img-cont .card:hover {
+    transition: all 400ms;
+    transform: scale(0.9);
+
+}
+
+.insp-button {
+    width: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.insp-button button {
+    width: 250px;
+    height: 75px;
+    font-size: 1.5em;
+    background-color: black;
+}
+
+
+.telegram {
+    background-color: rgb(31, 0, 0);
+    display: flex;
+    align-items: center;
+}
+
+.telegram a {
+    color: rgb(255, 255, 255);
+}
+
+.feedback-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.feedback .card {
+    width: 450px;
+    margin-bottom: 2em;
+}
+
+
+.carousel-item  {
+    height: 1000px;
+}
+
+.anime-container p {
+    color: rgba(188, 184, 184, 0.75);
+}
+
+.anime-container img {
+    width: 255px;
+    margin: 25px;
+}
+
+.contact-container {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-heading p{
+    color: rgba(188, 184, 184, 0.75);
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+}
+
+.e-input {
+    height: 122px;
+}
+
+.e-button button:hover {
+    background-color: maroon;
+    border-color: maroon;
+}
+
+.e-button button {
+    width: 100%;
+    background-color: rgb(68, 0, 0);
+    height: 75px;
+    font-size: 1.2em;
+    border-color: black;
+}
+
+footer {
+    height: 300px;
+    background-color: rgb(27, 27, 27)
+}
+
+.s-media img {
+    margin-left: 0.2em;
+    margin-bottom: 1em;
+}
+
+.footer-container {
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: maroon;
+}
+
+.footer-mobile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-mobile div {
+    margin-left: 3em;
+}
+
+
+
+@media screen and (max-width: 1025px)
+{
+    .card {
+        width: 425px;
+        background-color: rgb(43, 48, 50);
+        margin-bottom: 2em;
+        margin-left: 1em;
+    }
+
+    .feedback-h {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 600px) {
+    /* .video-text {
+        margin-left: 3em;
+    } */
+        h2 {
+            font-size: 2em;
+        }
+
+        .video-text {
+            margin-left: 4em;
+        }
+
+        .exp-end {
+            margin-bottom: 2em;
+        }
+
+        .philosophy-txt {
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+
+        .img-s {
+            padding-top: 16em;
+        }
+         .card {
+            width: 335px;
+            background-color: rgb(43, 48, 50);
+            margin-bottom: 2em;
+            margin-left: 1em;
+        }
+
+        .carousel-item {
+            height: 450px;
+        }
+
+        .insp-button {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 200px;
+            margin-left: 3em;
+            padding-bottom: 4em;
+        }
+
+        .img-cont {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .experience-content {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .feedback .card {
+            width: 100%
+        }
+
+        .e-button {
+            height: 30px;
+        }
+        
+           
+        footer {
+            margin-top: 3em;
+        }
+
+        
+        
+        .img-giu
+         {
+            width: 435px;
+         }
+
+        footer h2 {
+            font-size: 2em;
+        }
+
+        footer {
+            width: 100%;
+        }
+}

@@ -1,0 +1,48 @@
+.bg-video {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-video video {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.effect {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.54);
+}
+
+.video-text {
+    z-index: 2;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.video-text p {
+    font-size: 1.2em;
+}
+
+.video-text span {
+    color: rgba(188, 184, 184, 0.75);
+}
+
